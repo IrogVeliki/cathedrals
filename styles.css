@@ -10,6 +10,9 @@ body {
 	background: #303436;
 	text-decoration: none;
     min-height: 100%;
+	margin: unset;
+	/*
+	*/
 	
 	display: flex;
 	flex-direction: column;
@@ -27,15 +30,20 @@ a:hover {
 	background-color: #303436;
 }
 .nav_path {
+	/*
 	padding-top: 85px;
+	*/
+	padding-top: 37px;
 	padding-left: 20%;
 	padding-right: 20%;
 }
 
 .menu {
-	font-family : times;
+	/*
 	padding-left: 10%;
 	padding-right: 10%;
+	*/
+	font-family : times;
 	
 }
 

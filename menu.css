@@ -5,16 +5,22 @@ https://dev.to/felipperegazio/building-a-pure-css-menu-with-nested-dropdowns-hcn
 
 */
 .menu {
+	/*
+  position: fixed;
+  width: 100vw;
+	
+	*/
   --menu-height: 40px;
   box-sizing: border-box;
-  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
 }
 .menu ul {
-  list-style: none;
+	/*
   padding: 16px;
+	*/
+  list-style: none;
+  padding: 6px;
   margin: 0;
 }
 .menu ul li, .menu ul li a {
@@ -55,8 +61,12 @@ https://dev.to/felipperegazio/building-a-pure-css-menu-with-nested-dropdowns-hcn
   display: none;
 }
 .menu > ul {
+  /*
   display: flex;
   height: var(--menu-height);
+  */
+  display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #000000;
 }
